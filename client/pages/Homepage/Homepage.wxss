@@ -1,0 +1,8 @@
+@import "../index/index.wxss";
+.CoverTitle {
+    background:azure;
+    font-size:50px;
+    color:dimgrey;    
+    text-align: center;
+    height: 200px;
+}

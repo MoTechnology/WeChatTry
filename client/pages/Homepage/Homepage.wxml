@@ -1,0 +1,15 @@
+<!--pages/Homepage/Homepage.wxml-->
+<text>This is my home page</text>
+<view class="uploader">
+  <navigator url="../index/index" open-type="navigate" class="uploader-text">
+    <text>Go to defaut Index Page</text>
+  </navigator>
+</view>
+<button bindtap="changeName">Click me</button>
+<view class="CoverTitle">
+  <view>Hello
+    <view>
+      <image class="userinfo-avatar" src="{{logged ? userInfo.avatarUrl : '../index/user-unlogin.png'}}" background-size="cover"></image>
+    </view>
+    {{logged ? userInfo.nickName : name}}!</view>
+</view>
